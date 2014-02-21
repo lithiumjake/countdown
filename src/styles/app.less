@@ -1,0 +1,33 @@
+@import (less)"./styles.css";
+section,
+header {
+  .container;
+}
+header+section {
+  margin-top: 30px;
+}
+section+section {
+  margin-top: 30px;
+}
+ul {
+  .row;
+  list-style-type: none;
+  display: inline;
+}
+header+section li {
+  font-size: 48px;
+}
+li {
+  .col-xs-2;
+  text-align: center;
+  font-size: 18px;
+}
+li:first-child {
+  .col-xs-offset-2;
+}
+h1 {
+  .text-center;
+}
+[v-cloak] {
+  display: none;
+}
