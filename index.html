@@ -5,29 +5,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>till April 20th</title>
+  <title>Countdown</title>
   <link rel="stylesheet" href="app/css/app.css">
 </head>
 
-<body id="vapp" v-cloak>
+<body id="v-app" vcloak>
   <header>
-    <h1>Countdown To April 20<sup>th</sup></h1>
+    <h1>Countdown</h1>
   </header>
   <section>
-    <ul>
-      <li>{{days}}</li>
-      <li>{{hours}}</li>
-      <li>{{minutes}}</li>
-      <li>{{seconds}}</li>
-    </ul>
-  </section>
-  <section>
-    <ul>
-      <li>Days</li>
-      <li>Hours</li>
-      <li>Minutes</li>
-      <li>Seconds</li>
-    </ul>
+    <div id="foo">
+      <div>
+        <div>
+          <h2>{{days}}</h2>
+          <h3>days</h3>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h2>{{hours}}</h2>
+          <h3>hours</h3>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h2>{{minutes}}</h2>
+          <h3>minutes</h3>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h2>{{seconds}}</h2>
+          <h3>seconds</h3>
+        </div>
+      </div>
+    </div style="clear: both">
   </section>
   <script src="app/js/app.js"></script>
 </body>

@@ -3528,7 +3528,7 @@ module.exports = ViewModel
 var Vue = require('vue')
 
 new Vue({
-  el: "#vapp",
+  el: "#v-app",
   methods: {
     tick: function() {
       var now    = new Date(),
@@ -3554,8 +3554,8 @@ new Vue({
     this.interval = setInterval(function () {
       self.tick();
     }, 1000)
-}
-});
+  }
+})
 
 },{"vue":18}],25:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.

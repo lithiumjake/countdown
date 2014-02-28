@@ -1,4 +1,11 @@
 @import (less)"./styles.css";
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+
+body {
+  background-color: #000;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+}
 section,
 header {
   .container;
@@ -6,28 +13,32 @@ header {
 header+section {
   margin-top: 30px;
 }
-section+section {
-  margin-top: 30px;
+section>div {
+   .row;
 }
-ul {
-  .row;
-  list-style-type: none;
-  display: inline;
-}
-header+section li {
-  font-size: 48px;
-}
-li {
+section>div>div {
   .col-xs-2;
-  text-align: center;
-  font-size: 18px;
 }
-li:first-child {
+section>div>div:first-child {
   .col-xs-offset-2;
 }
-h1 {
-  .text-center;
+section>div>div>div {
+  text-align:center;
+  width:150px;
+  height:150px;
+  border: 2px solid #fff;
+  border-radius: 75px;  
 }
+h2 {
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+h3 {
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+
 [v-cloak] {
   display: none;
 }

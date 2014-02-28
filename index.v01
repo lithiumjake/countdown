@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>till April 20th</title>
+  <link rel="stylesheet" href="app/css/app.css">
+</head>
+
+<body id="vapp" v-cloak>
+  <header>
+    <h1>Countdown To April 20<sup>th</sup></h1>
+  </header>
+  <section>
+    <ul>
+      <li>{{days}}</li>
+      <li>{{hours}}</li>
+      <li>{{minutes}}</li>
+      <li>{{seconds}}</li>
+    </ul>
+  </section>
+  <section>
+    <ul>
+      <li>Days</li>
+      <li>Hours</li>
+      <li>Minutes</li>
+      <li>Seconds</li>
+    </ul>
+  </section>
+  <script src="app/js/app.js"></script>
+</body>
+
+</html>
